@@ -1,0 +1,23 @@
+PODS:
+  - libzstd (1.5.5)
+  - ZstdSwift (1.0.0):
+    - libzstd (~> 1.5.5)
+
+DEPENDENCIES:
+  - ZstdSwift (from `..`)
+
+SPEC REPOS:
+  trunk:
+    - libzstd
+
+EXTERNAL SOURCES:
+  ZstdSwift:
+    :path: ".."
+
+SPEC CHECKSUMS:
+  libzstd: 1606d2abf01a0f6c154049bae482a48e24f220c5
+  ZstdSwift: 9968fd4f4095e0121ee3325e12d2ad4723b9fd01
+
+PODFILE CHECKSUM: 3e2a445af3e0ac896089dceee1ea11702c3ea1c4
+
+COCOAPODS: 1.16.2
